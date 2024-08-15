@@ -4,22 +4,29 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - "\u751F\u6210\u9EDE"
-  - "\u4E2D\u7E7C\u9EDE"
-  - "\u53EF\u90E8\u7F72"
-  - "\u6F22\u4EBA\u6B66\u5668"
-  - "\u5676\u746A\u862D\u6B66\u5668"
-  - "\u6F22\u4EBA"
-  - "\u5676\u746A\u862D"
+  - "\u6575\u4EBA"
+  - "\u6211\u65B9\u5B50\u5F48"
   - "\u6575\u65B9\u5B50\u5F48"
+  - "\u5F13\u7BAD\u624B"
+  - "\u6F22\u4EBA\u6B66\u5668"
+  - "\u6F22\u4EBA"
+  - "\u751F\u6210\u9EDE"
+  - "\u5676\u746A\u862D"
+  - "\u5676\u746A\u862D\u6B66\u5668"
+  - "\u53EF\u90E8\u7F72"
+  - "\u4E2D\u7E7C\u9EDE"
+  - "\u75C5\u6BD2"
+  - "\u6551\u63F4\u8005"
+  - "\u75C5\u6BD2\u6B66\u5668"
+  - "\u88AB\u6551\u63F4\u8005"
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - "\u9810\u9632\u78B0\u649E"
   - Water
   - UI
-  - "\u6392\u9664\u78B0\u649E"
+  - "\u4EBA\u8207\u4EBA\u7684\u78B0\u649E"
   - 
   - 
   - 

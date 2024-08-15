@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 187450298464162231}
   - component: {fileID: 2228507910037732498}
   - component: {fileID: 8578037570732182161}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "\u5676\u746A\u862D_\u6B66\u5668_\u5F13\u7BAD"
   m_TagString: "\u5676\u746A\u862D\u6B66\u5668"
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6412044302027430479}
   - component: {fileID: 6092118323567843003}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 1337024436769953104, guid: 01372e2815129ca4a9eb1bbb79cb15ca,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1857101564821426154, guid: 01372e2815129ca4a9eb1bbb79cb15ca,
         type: 3}

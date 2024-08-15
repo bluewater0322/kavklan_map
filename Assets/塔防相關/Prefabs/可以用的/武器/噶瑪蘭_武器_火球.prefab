@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4352149755219120292}
   - component: {fileID: 1293436389313920418}
   - component: {fileID: 2261231170120487996}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "\u5676\u746A\u862D_\u6B66\u5668_\u706B\u7403"
   m_TagString: "\u5676\u746A\u862D\u6B66\u5668"
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 536708914185932015}
   - component: {fileID: 4319005559337435517}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}

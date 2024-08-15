@@ -18,19 +18,19 @@ public class SceneChange : MonoBehaviour
     }
     public void Menu()
     {
-        SceneManager.LoadScene("eBooks/Scenes/Menu");
+        SceneManager.LoadScene("Menu");
     }
     public void LastChapter()
     {
-        SceneManager.LoadScene("eBooks/Scenes/Chapter" + (chapernum - 1));
+        SceneManager.LoadScene("Chapter" + (chapernum - 1));
     }
     public void NextChapter()
     {
-        SceneManager.LoadScene("eBooks/Scenes/Chapter" + (chapernum + 1));
+        SceneManager.LoadScene("Chapter" + (chapernum + 1));
     }
     public void Chapter1()
     {
-        SceneManager.LoadScene("eBooks/Scenes/Chapter1");
+        SceneManager.LoadScene("Chapter1");
     }
 
 }

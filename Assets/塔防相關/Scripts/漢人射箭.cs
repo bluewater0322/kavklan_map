@@ -25,17 +25,12 @@ public class 漢人射箭 : MonoBehaviour
     }
     public void shootComplete()
     {
-        try
-        {
-            Transform 瞄準目標 = 目標.transform.Find("被瞄準的位置");
-            Vector3 dir = 瞄準目標.transform.position - 射出的箭.transform.position;
-            射出的箭.GetComponent<Rigidbody>().velocity = dir * 射速;
-            射出的箭.transform.LookAt(目標);
-        }
-        catch
-        {
+        if (目標 == null) return;
+        Transform 瞄準目標 = 目標.transform.Find("被瞄準的位置");
+        transform.Find("目標").position = 瞄準目標.transform.position;
+        Vector3 dir = 瞄準目標.transform.position - 射出的箭.transform.position;
+        射出的箭.GetComponent<Rigidbody>().velocity = dir * 射速;
+        射出的箭.transform.LookAt(目標);
 
-        }
-        
     }
 }

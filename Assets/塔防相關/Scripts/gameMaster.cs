@@ -13,6 +13,10 @@ public class gameMaster : MonoBehaviour
     public int 砲A上限 = 5;
     public int 砲B上限 = 5;
 
+    //------------- 吳沙救護生成點 -------------------
+    public GameObject 吳沙;
+
+
     //------------- 攻勢 -------------------
     public int 目前關卡 = 1;
     public float 每幾秒產生一波 = 10f;
@@ -34,12 +38,14 @@ public class gameMaster : MonoBehaviour
     bool EndGame = false;
     bool 已熄火 = false;
 
+    public GameObject 開始畫面;
+
     // Start is called before the first frame update
     void Start()
     {
         生成點 = GameObject.FindGameObjectsWithTag("生成點");
         攻擊倒數 = 每幾秒產生一波;
-        StartCoroutine( 一波敵人());
+        
     }
     void 熄火() {
         GameObject[] turrets = GameObject.FindGameObjectsWithTag("噶瑪蘭");
@@ -58,6 +64,8 @@ public class gameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (開始畫面.activeInHierarchy == true) return;
+
         if (EndGame) {
             if(!已熄火)
                 熄火();
@@ -112,4 +120,9 @@ public class gameMaster : MonoBehaviour
         }
     }
 
+    public void 按下開始()
+    {
+        開始畫面.SetActive(false);
+        StartCoroutine(一波敵人());
+    }
 }
